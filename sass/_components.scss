@@ -1,0 +1,23 @@
+.navbar {
+  padding-right: 2rem;
+  .icons {
+    padding-left: 22rem;
+    // margin: 0 auto;
+    @media screen and (max-width: 990px) {
+      padding: 0;
+      margin: 0 auto;
+    }
+  }
+  .navbar-brand {
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    margin-right: 3rem;
+  }
+}
+.home-banner {
+  background-image: url(../img/home-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 92vh;
+}
