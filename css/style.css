@@ -39,3 +39,21 @@
 #mpp1, #mpp2 {
   height: 100%;
   width: 100%; }
+
+
+/* 3 fractal tree pics */
+.img-row {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .img-row {
+    flex-direction: column;
+  }
+}
+
+.f-tree {
+  width: 15rem;
+  margin: 2rem auto;
+}
